@@ -1,0 +1,41 @@
+# Python虚拟环境
+venv/
+env/
+ENV/
+
+# Python缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 分发/打包
+dist/
+build/
+*.egg-info/
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# 可视化输出
+*.png
+*.jpg
+*.gif
+*.pdf
+
+# IDE项目文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MacOS系统文件
+.DS_Store 
